@@ -10,15 +10,14 @@ def f(x, r):
 # Use recursion to generate the set of x's
 def iter_f(r, current_list, interval, step=1):
     if interval == step:
-        new_list = current_list
-        return new_list
+        return current_list
     elif step < interval:
         new_val = f(current_list[-1], r)
         current_list.append(new_val)
         return iter_f(r, current_list, interval, step+1)
 
 
-# plot the function f with a given value of r for the interval
+# plot the function f with a given value of r
 def plot_f(r, interval=30):
     time = np.arange(0, interval)
     f_data = iter_f(r, [0.1], interval)
