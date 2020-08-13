@@ -1,4 +1,4 @@
-# physics105hw11
+# chaos_theory_hw
 drawing bifurcation diagrams
 
 Zooming into the naturally occurring bifurcation diagram from iteration of the function f(x, r )= r*x*(1-x).
