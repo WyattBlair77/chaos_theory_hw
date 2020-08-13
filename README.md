@@ -6,5 +6,5 @@ You can plug in any function of r and x here and see how the stability changes a
 The diagram it is currently set to generate is where we get the Feigenbaum Constant, an irrational number like pi, which
 helps describe how often the period "doubles" here.
 
-Note how x and r axes are zooming further into the pictures successively and the structure "repeats" itself over and over again
+Note how the x and r axes are zooming further into the pictures successively and the structure "repeats" itself over and over again
 "flipping" upside down each time. 
